@@ -1,0 +1,153 @@
+body{
+	margin: 0;
+}
+.container{
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 200px;
+	background: #00b8ff5c;
+}
+.text-param{
+    width: 430px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 43px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.thermometer-image{
+    width: 70px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    background-size: 89%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.temperature{
+	width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    vertical-align: top;
+}
+.wind-image{
+	width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    background-size: 89%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.wind-speed{
+	width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    vertical-align: top;
+}
+.calculate{
+	width: 120px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 38px;
+    box-shadow: 4px 3px 15px 5px #0000ff94;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0000ffb3;
+    border: 2px solid #0000ff94;
+    color: white;
+    font-size: 22px;
+}
+.result{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 155px;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    font-size: 55px;
+    line-height: 100px;
+}
+.clear{
+	width: 115px;
+    height: 50px;
+    margin-top: 38px;
+    box-shadow: 4px 3px 15px 5px #0000ff94;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0000ffb3;
+    border: 2px solid #0000ff94;
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+}
+.result-text{
+	width: 300px;
+    height: 40px;
+    margin-left: 105px;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 36px;
+}
+.name-faringate{
+	width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 40px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.faringate{
+	width: 30px;
+	height: 30px;
+	border: 2px solid black;
+	display: inline-block;
+	cursor: pointer;
+	background: white;
+	margin-left: 10px;
+	vertical-align: top;
+    margin-top: 46px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 31px;
+}
+.name-celsiuses{
+	width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 40px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.celsiuses{
+	width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    background: white;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 46px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 31px;
+}
